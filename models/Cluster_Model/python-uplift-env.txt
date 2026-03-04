@@ -1,0 +1,27 @@
+# Create new environment with Python 3.11
+conda create -n uplift_env python=3.11 -y
+
+# Activate it
+conda activate uplift_env
+
+# Install compatible versions
+pip install scikit-learn==1.4.2
+pip install scikit-uplift
+pip install pandas numpy matplotlib seaborn jupyter ipykernel
+
+
+
+# Now activate and install the package
+
+# Activate the environment
+conda activate uplift_env
+
+# Install required packages
+pip install scikit-learn==1.4.2
+pip install scikit-uplift
+pip install pandas numpy matplotlib seaborn jupyter ipykernel
+
+
+# Then add it to Jupyter:
+
+python -m ipykernel install --user --name=uplift_env --display-name="Python (uplift)"
