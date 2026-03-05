@@ -113,6 +113,19 @@ The project leveraged key libraries including **pandas**, **numpy**, **scikit-le
 
 Any random seeds or states used to ensure reproducibility are documented directly in the notebooks within the `model` folder. **add link**
 
+## Exploratory Data Analysis
+
+- Skewed distributions: Apply scaling or transformation for numeric variables like income and purchase amounts.
+- No multicollinearity: Features are largely independent, simplifying modeling.
+- Customer behavior insights:
+    - High spending in wine and meat
+    - Fewer children correlates with higher purchases
+    - In-store purchases dominate
+    - Majority of customers are married and hold a graduation-level education
+    - Average customer age is approximately 57 years
+
+>**For more insights, see [Exploratory Data Analysis README.md](https://github.com/sara-maheswaran/Machine_Learning_Group_8/tree/main/data/raw).**
+
 ## Data Cleaning
 
 Purpose of Data Cleaning: Ensure accurate and actionable customer insights by addressing inconsistencies and anomalies in the marketing dataset.
@@ -134,18 +147,7 @@ Data Cleaning & Preprocessing Strategy:
 - Feature Engineering: Created Age, Total_Spending, Total_Purchases, Children_at_home, Family_Size.
 - Log Transformation of Spending: Spending variables were log-transformed to reduce skew.
 
-## Exploratory Data Analysis
-
-- Skewed distributions: Apply scaling or transformation for numeric variables like income and purchase amounts.
-- No multicollinearity: Features are largely independent, simplifying modeling.
-- Customer behavior insights:
-    - High spending in wine and meat
-    - Fewer children correlates with higher purchases
-    - In-store purchases dominate
-    - Majority of customers are married and hold a graduation-level education
-    - Average customer age is approximately 57 years
-
->**For more insights, see [Exploratory Data Analysis README.md](https://github.com/sara-maheswaran/Machine_Learning_Group_8/tree/main/data/raw).**
+  For more details, see [Data Preprocessing](data/preprocessed/README.md).
 
 ## Model Development
 
