@@ -16,25 +16,37 @@
 
 The majority of customers are married and hold a graduation-level education. The average customer age is approximately 57 years. A small number of unrealistic age outliers were identified and will need to be handled. Understanding age distribution helps determine how purchasing patterns vary across low-spending ones.
 
+![Demographics](../../images/age_distribution_with_mean_and_outlier_bounds.png)
+
 **Income Analysis**
 
 The average income is approximately 51,381; however, income distribution is highly skewed due to a small number of extremely high-income customers. This creates imbalance and requires scaling and outlier treatment before segmentation. Income is expected to be one of the strongest predictors of spending behavior.
+
+![Income_Analysis](../../images/income_distribution_with_mean_and_outlier_bounds.png)
 
 **Spending Behavior**
 
 Customers spend the most on wines and meat products compared to other categories. Overall spending patterns are not evenly distributed, meaning some customers spend significantly more than others. This variation is valuable for segmentation, as it helps distinguish high-value customers from low-spending ones.
 
+![Spending_Behavior](../../images/total_spending_by_product_category.png)
+
 **Household Structure and Purchasing**
 
 Spending behavior changes depending on whether customers have children at home. Households with significant family sizes show differences in important segmentation and product category preferences. This suggests that family structure is an important segmentation factor.
+
+![Household](../../images/percentage_stacked_bar_plot_product_vs_children_at_home.png)
 
 **Purchase Channels**
 
 Customers most frequently make purchases in physical stores, followed by web and catalog channels. This indicates that offline presence remains important and can still play a significant role. Understanding channel preference allows for better campaign targeting.
 
+![Purchase_channels](../../images/purchases_by_channel.png)
+
 **Age Group Spending Patterns**
 
 Spending habits vary across age groups. Certain age segments spend more overall, while others show stronger preferences for specific product categories. Segmenting by age group can therefore improve marketing personalization and promotional targeting.
+
+![Age_Group](../../images/ave_spending_by_age_group.png)
 
 **Correlation Insights**
 

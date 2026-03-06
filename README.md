@@ -11,9 +11,9 @@
 
 - [Methodology](#methodology)
 
-- [Data Cleaning](#data-cleaning)
-
 - [Exploratory Data Analysis](#exploratory-data-analysis)
+
+- [Data Cleaning](#data-cleaning)
 
 - [Model Development](#model-development)
 
@@ -125,6 +125,19 @@ Any random seeds or states used to ensure reproducibility are documented directl
     - Average customer age is approximately 57 years
 
 >For more insights, see [Exploratory Data Analysis README.md](https://github.com/sara-maheswaran/Machine_Learning_Group_8/tree/main/data/raw).
+
+## Exploratory Data Analysis
+
+- Skewed distributions: Apply scaling or transformation for numeric variables like income and purchase amounts.
+- No multicollinearity: Features are largely independent, simplifying modeling.
+- Customer behavior insights:
+    - High spending in wine and meat
+    - Fewer children correlates with higher purchases
+    - In-store purchases dominate
+    - Majority of customers are married and hold a graduation-level education
+    - Average customer age is approximately 57 years
+
+>**For more insights, see [Exploratory Data Analysis README.md](https://github.com/sara-maheswaran/Machine_Learning_Group_8/tree/main/data/raw).**
 
 ## Data Cleaning
 
@@ -274,6 +287,8 @@ Based on an assumption of a $500 marketing cost for each segment, converting 20%
     └── Exploratory_Data_Analysis
 ├── images
 ├── models
+    └── Cluster_Model
+    └── Exploratory_Data_Analysis
 ├── reports
 ├── .gitignore
 ├── README.md
