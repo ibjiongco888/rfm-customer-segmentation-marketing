@@ -273,9 +273,7 @@ Based on an assumption of a $500 marketing cost for each segment, converting 20%
     └── Cluster_Model
     └── Exploratory_Data_Analysis
 ├── images
-├── models
-    └── Cluster_Model
-    └── Exploratory_Data_Analysis
+├── models     
 ├── reports
 ├── .gitignore
 ├── README.md
